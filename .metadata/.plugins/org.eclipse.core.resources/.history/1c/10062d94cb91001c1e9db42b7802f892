@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		Titulaire t=new Titulaire("safa");
+		t.ajouterCompte(new Compte(1));
+		t.ajouterCompte(new Compte(2));
+		t.ajouterCompte(new Compte(3));
+	}
+
+}
